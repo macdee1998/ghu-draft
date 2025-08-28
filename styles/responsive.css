@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    background: #800000;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 220px;
+    padding: 1rem;
+    transform: translateX(100%); /* hide off-screen */
+  }
+
+  .nav-links.active {
+    transform: translateX(0); /* slide in */
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+    .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  .cta-content h2 {
+    font-size: 1.8rem;
+  }
+  .cta-content p {
+    font-size: 1rem;
+  }
+
+}
