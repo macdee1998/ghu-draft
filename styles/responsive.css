@@ -7,11 +7,11 @@
     right: 0;
     width: 220px;
     padding: 1rem;
-    transform: translateX(100%); /* hide off-screen */
+    transform: translateX(100%); 
   }
 
   .nav-links.active {
-    transform: translateX(0); /* slide in */
+    transform: translateX(0);
   }
 
   .menu-toggle {

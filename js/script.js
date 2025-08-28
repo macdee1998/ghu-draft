@@ -4,11 +4,9 @@ const navLinks = document.querySelector(".nav-links");
 menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 
-  // animate the burger icon
   menuToggle.classList.toggle("open");
 });
 
-// Scroll fade-in effect
 const faders = document.querySelectorAll(".fade-up");
 
 const appearOptions = {
@@ -28,9 +26,8 @@ faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
 
-// Counter animation for stats
 const counters = document.querySelectorAll('.stat-number');
-const speed = 200; // smaller = faster
+const speed = 200; 
 
 const runCounters = () => {
   counters.forEach(counter => {
@@ -52,7 +49,6 @@ const runCounters = () => {
   });
 };
 
-// Trigger only when section is visible
 let statsSection = document.querySelector('#stats');
 let statsPlayed = false;
 
